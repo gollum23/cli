@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 permalink: /:path/:basename
 ---
 
@@ -22,7 +22,7 @@ gh pr list [flags]
   -B, --base string       Filter by base branch
   -l, --label strings     Filter by label
   -L, --limit int         Maximum number of items to fetch (default 30)
-  -s, --state string      Filter by state: {open|closed|merged|all} (default "open")
+  -s, --state string      Filter by state: {open|closed|merged|draft|all} (default "open")
 ```
 
 ### Options inherited from parent commands
